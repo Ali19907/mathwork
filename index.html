@@ -4,49 +4,104 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Play Games - CrazyGames Style</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Unblocked Games - Nintendo DS Theme</title>
+    <style>
+        /* Basic CSS for Nintendo DS theme */
+        body {
+            background-color: #2d2d2d;
+            color: white;
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #0079c1;
+            padding: 20px 0;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 40px;
+        }
+        .game-card {
+            background-color: #444;
+            border-radius: 10px;
+            width: 180px;
+            margin: 10px;
+            padding: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            transition: transform 0.2s;
+        }
+        .game-card:hover {
+            transform: scale(1.05);
+        }
+        .game-card img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        .game-title {
+            margin-top: 10px;
+            font-size: 1.2rem;
+            color: #f5a623;
+        }
+        .game-link {
+            display: block;
+            margin-top: 10px;
+            color: #0079c1;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        footer {
+            background-color: #0079c1;
+            color: white;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>Welcome to Play Games!</h1>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#games">Games</a></li>
-            </ul>
-        </nav>
+        <h1>Unblocked Games - Nintendo DS Theme</h1>
     </header>
 
-    <section id="home">
-        <div class="intro">
-            <h2>Start Playing Now!</h2>
-            <p>Explore a variety of fun games on our platform.</p>
-            <a href="#games" class="button">Play Now</a>
+    <div class="container">
+        <!-- Game 1 -->
+        <div class="game-card">
+            <img src="game1-icon.jpg" alt="Game 1">
+            <div class="game-title">Super Mario DS</div>
+            <a href="https://example.com/game1" class="game-link" target="_blank">Play Now</a>
         </div>
-    </section>
 
-    <section id="games">
-        <h2>Featured Games</h2>
-        <div class="game-list">
-            <!-- Add embedded games here -->
-            <div class="game-item">
-                <h3>Game 1: Super Fun Game</h3>
-                <iframe src="game1.html" width="600" height="400"></iframe>
-            </div>
-            <div class="game-item">
-                <h3>Game 2: Racing Mania</h3>
-                <iframe src="game2.html" width="600" height="400"></iframe>
-            </div>
-            <div class="game-item">
-                <h3>Game 3: Adventure Quest</h3>
-                <iframe src="game3.html" width="600" height="400"></iframe>
-            </div>
+        <!-- Game 2 -->
+        <div class="game-card">
+            <img src="game2-icon.jpg" alt="Game 2">
+            <div class="game-title">Pokemon DS</div>
+            <a href="https://example.com/game2" class="game-link" target="_blank">Play Now</a>
         </div>
-    </section>
+
+        <!-- Game 3 -->
+        <div class="game-card">
+            <img src="game3-icon.jpg" alt="Game 3">
+            <div class="game-title">Zelda DS</div>
+            <a href="https://example.com/game3" class="game-link" target="_blank">Play Now</a>
+        </div>
+
+        <!-- Add more games as needed -->
+    </div>
 
     <footer>
-        <p>&copy; 2024 Play Games. All Rights Reserved.</p>
+        <p>Unblocked Games © 2024</p>
     </footer>
 </body>
 </html>
+
